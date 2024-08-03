@@ -15,7 +15,7 @@ mongoose
 
 app.use(
   cors({
-    origin: "https://formbot-api-nwz1.onrender.com",
+    origin: "https://ec2-13-60-104-236.eu-north-1.compute.amazonaws.com",
   })
 );
 app.use(bodyParser.json());
