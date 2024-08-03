@@ -1,6 +1,6 @@
 const axios = require("axios");
 const Chat = require("../Models/Chatbot.js");
-const FORM_APP_URL = "http://localhost:3000";
+const FORM_APP_URL = "http://ec2-13-60-104-236.eu-north-1.compute.amazonaws.com";
 const fetchForm = async (req, res) => {
   try {
     const formResponse = await axios.get(
